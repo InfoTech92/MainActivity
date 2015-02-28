@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView 
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/ScrollView01"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fillViewport="true"
+android:scrollbars="none" >
+
+	<LinearLayout 
+    android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+	
+		<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:background="@drawable/main_header_selector" >
+	    
+	
+		    <com.stepcounter.mainactivity.RoundedImageView
+		    android:id="@+id/alessioImage"
+		    android:layout_width="100dp"
+		    android:layout_height="100dp"
+		    android:src="@drawable/profile_image"
+		    android:layout_gravity="center"/>
+		    
+		    <TextView
+		    android:id="@+id/alessioNameLabelTextView"
+		    android:layout_width="50dp"
+		    android:layout_height="30dp"
+		    android:textColor="@color/blue"
+		    android:layout_toRightOf="@+id/alessioImage"
+		    android:layout_toEndOf="@+id/alessioImage"
+		    android:layout_alignTop="@+id/alessioImage"
+		    android:text="@string/profile_management_activity_name_text_view">
+		    </TextView>
+				          
+				          
+			<TextView
+			android:id="@+id/alessioNameTextView"
+			android:layout_width="50dp"
+			android:layout_height="30dp"
+			android:textColor="@color/blue"
+			android:layout_toRightOf="@+id/alessioNameLabelTextView"
+			android:layout_toEndOf="@+id/alessioNameLabelTextView"
+			android:text="@string/profile_management_activity_name_text_view">
+			</TextView>
+			
+			<TextView
+			android:id="@+id/profileManagementActivityNameTextView"
+			android:layout_width="100dip"
+			android:layout_height="40dip"
+			android:textColor="@color/blue"
+			android:layout_toRightOf="@+id/circularImage"
+			android:layout_toEndOf="@+id/circularImage"
+			android:layout_alignTop="@+id/circularImage"
+			android:text="@string/profile_management_activity_name_text_view">
+			</TextView>
+			
+			<TextView
+			android:id="@+id/profileManagementActivityNameTextView"
+			android:layout_width="100dip"
+			android:layout_height="40dip"
+			android:textColor="@color/blue"
+			android:layout_toRightOf="@+id/circularImage"
+			android:layout_toEndOf="@+id/circularImage"
+			android:layout_alignTop="@+id/circularImage"
+			android:text="@string/profile_management_activity_name_text_view"
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+		</RelativeLayout>
+	</LinearLayout>
+</ScrollView>
