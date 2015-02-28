@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="5dp"
-    android:background="@drawable/main_header_selector"
+    android:background="@drawable/main_header_selector2"
     tools:context=".MainActivity" >
 
 	
@@ -12,7 +12,7 @@
 	    android:layout_height="wrap_content"
 	    android:layout_margin="5dp"
 	    android:padding="5dp"
-	    android:background="@drawable/main_header_selector" >
+	    android:background="@drawable/main_header_selector2" >
 	
 	
 		<EditText

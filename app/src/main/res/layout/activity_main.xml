@@ -3,7 +3,7 @@
     android:layout_width="fill_parent" 
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="@drawable/main_header_selector">
+    android:background="@drawable/main_header_selector2">
 
     <TextView
         android:id="@+id/textViewMainTitle"
@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:text="@string/main_activity_title" 
         android:textSize="30sp"
-        android:textColor="@color/blue"/>
+        android:textColor="@color/black"/>
     
 	
     

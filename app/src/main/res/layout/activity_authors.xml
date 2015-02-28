@@ -67,7 +67,9 @@ android:scrollbars="none" >
 			android:layout_toRightOf="@+id/circularImage"
 			android:layout_toEndOf="@+id/circularImage"
 			android:layout_alignTop="@+id/circularImage"
-			android:text="@string/profile_management_activity_name_text_view"
+			android:text="@string/profile_management_activity_name_text_view">
+
+			</TextView>
 	    
 	    
 	    

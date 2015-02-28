@@ -16,13 +16,13 @@
 		    android:layout_width="match_parent"
 		    android:layout_height="match_parent"
 		    android:orientation="vertical"
-		    android:background="@drawable/main_header_selector" >
+		    android:background="@drawable/main_header_selector2" >
 		    
 		    
 		    <com.stepcounter.mainactivity.RoundedImageView
 		        android:id="@+id/circularImageWorkoutStatisticsActivity"
-		        android:layout_width="230dp"
-		        android:layout_height="230dp"
+		        android:layout_width="220dp"
+		        android:layout_height="220dp"
 		        android:src="@drawable/profile_image"
 		        android:layout_gravity="center"/>
 		    
@@ -38,7 +38,7 @@
 		        android:layout_toEndOf="@id/circularImageWorkoutStatisticsActivity"
 		        android:layout_alignTop="@id/circularImageWorkoutStatisticsActivity"
 		        android:textSize="30sp"
-		        android:textColor="@color/blue"/>
+		        android:textColor="@color/black"/>
 		    
 		    <TextView
 		        android:id="@+id/trainingNameTextViewWorkoutStatisticsActivity"
@@ -50,7 +50,7 @@
 		        android:layout_toRightOf="@id/circularImageWorkoutStatisticsActivity"
 		        android:layout_toEndOf="@id/circularImageWorkoutStatisticsActivity"
 		        android:textSize="30sp"
-		        android:textColor="@color/blue"/>
+		        android:textColor="@color/black"/>
 		    
 		    
 			<TextView
@@ -63,7 +63,7 @@
 			   android:layout_toRightOf="@id/circularImageWorkoutStatisticsActivity"
 			   android:layout_toEndOf="@id/circularImageWorkoutStatisticsActivity"
 			   android:textSize="30sp"
-			   android:textColor="@color/blue"/>
+			   android:textColor="@color/black"/>
 			
 			
 			 <TextView
@@ -75,17 +75,20 @@
 			   android:layout_toRightOf="@id/circularImageWorkoutStatisticsActivity"
 			   android:layout_toEndOf="@id/circularImageWorkoutStatisticsActivity"
 			   android:textSize="30sp"
-			   android:textColor="@color/blue"/>
+			   android:textColor="@color/black"/>
 		    
 		    
 		    
 		    
 		    
 		    <com.jjoe64.graphview.GraphView
-		        android:layout_below="@id/circularImageWorkoutStatisticsActivity"
-		        android:layout_width="match_parent"
+                android:layout_width="match_parent"
 		        android:layout_height="200dip"
-		        android:id="@+id/graph" /> 
+		        android:id="@+id/graph"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="30dp" />
 		        
 		    
 		    
@@ -95,9 +98,10 @@
 			    android:layout_width="wrap_content"
 			    android:layout_height="wrap_content"
 			    android:orientation="vertical"
-			    android:layout_marginTop="10dp"
-			    android:background="@drawable/workout_activity_measurements_selector"
-			    android:layout_below="@id/btnProfileManagementActivitySave">
+                android:background="@drawable/workout_activity_measurements_selector"
+                android:layout_above="@+id/el6"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
 			    
 			        <ImageView
 				        android:id="@+id/roadImageWorkoutStatisticsActivity"
@@ -115,7 +119,7 @@
 				        android:layout_toRightOf="@id/roadImageWorkoutStatisticsActivity"
 				        android:layout_toEndOf="@id/roadImageWorkoutStatisticsActivity"
 				        android:textSize="30sp"
-				        android:textColor="@color/blue"/>
+				        android:textColor="@color/black"/>
 				        
 			</RelativeLayout>
 				    
@@ -126,11 +130,10 @@
 			    android:layout_width="wrap_content"
 			    android:layout_height="wrap_content"
 			    android:orientation="vertical"
-			    android:layout_marginTop="2dp"
-			    android:layout_alignParentRight="true"
-			    android:layout_alignParentEnd="true"
-			    android:background="@drawable/workout_activity_measurements_selector"
-			    android:layout_below="@id/profileManagementActivityXTextView">
+                android:background="@drawable/workout_activity_measurements_selector"
+                android:layout_above="@+id/el6"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true">
 				    
 			        <ImageView
 				        android:id="@+id/stepsImageWorkoutStatisticsActivity"
@@ -148,7 +151,7 @@
 				        android:layout_toRightOf="@id/stepsImageWorkoutStatisticsActivity"
 				        android:layout_toEndOf="@id/stepsImageWorkoutStatisticsActivity"
 				        android:textSize="30sp"
-				        android:textColor="@color/blue"/>
+				        android:textColor="@color/black"/>
 			        
 			</RelativeLayout>
 				    
@@ -161,9 +164,10 @@
 			    android:layout_width="wrap_content"
 			    android:layout_height="wrap_content"
 			    android:orientation="vertical"
-			    android:layout_marginTop="2dp"
-			    android:layout_below="@id/el1p"
-			    android:background="@drawable/workout_activity_measurements_selector">
+                android:background="@drawable/workout_activity_measurements_selector"
+                android:layout_above="@+id/graph"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
 		    
 		        <ImageView
 			        android:id="@+id/clock2ImageWorkoutStatisticsActivity"
@@ -181,7 +185,7 @@
 			        android:layout_toRightOf="@id/clock2ImageWorkoutStatisticsActivity"
 			        android:layout_toEndOf="@id/clock2ImageWorkoutStatisticsActivity"
 			        android:textSize="30sp"
-			        android:textColor="@color/blue"/>
+			        android:textColor="@color/black"/>
 		        
 		    </RelativeLayout>
 				    
@@ -191,14 +195,13 @@
 				    
 		    <RelativeLayout 
 			    android:id="@+id/el4p"
-			    android:layout_below="@id/el1p"
-			    android:layout_width="wrap_content"
+                android:layout_width="wrap_content"
 			    android:layout_height="wrap_content"
 			    android:orientation="vertical"
-			    android:layout_marginTop="2dp"
-			    android:layout_alignParentRight="true"
-			    android:layout_alignParentEnd="true"
-			    android:background="@drawable/workout_activity_measurements_selector">
+                android:background="@drawable/workout_activity_measurements_selector"
+                android:layout_alignTop="@+id/el3p"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true">
 		    
 		        <ImageView
 			        android:id="@+id/stickmanTapisRoulantImageWorkoutStatisticsActivity"
@@ -216,7 +219,7 @@
 			        android:layout_toRightOf="@id/stickmanTapisRoulantImageWorkoutStatisticsActivity"
 			        android:layout_toEndOf="@id/stickmanTapisRoulantImageWorkoutStatisticsActivity"
 			        android:textSize="30sp"
-			        android:textColor="@color/blue"/>
+			        android:textColor="@color/black"/>
 		        
 		    </RelativeLayout>
 				    
@@ -229,9 +232,10 @@
 		    android:layout_width="wrap_content"
 		    android:layout_height="wrap_content"
 		    android:orientation="vertical"
-		    android:layout_marginTop="2dp"
-		    android:layout_below="@id/el3"
-		    android:background="@drawable/workout_activity_measurements_selector">
+                android:background="@drawable/workout_activity_measurements_selector"
+                android:layout_above="@+id/el3p"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
 		    
 		        <ImageView
 		        android:id="@+id/tachimeterImage2WorkoutStatisticsActivity"
@@ -249,7 +253,7 @@
 		        android:layout_toRightOf="@id/tachimeterImage2WorkoutStatisticsActivity"
 		        android:layout_toEndOf="@id/tachimeterImage2WorkoutStatisticsActivity"
 		        android:textSize="30sp"
-		        android:textColor="@color/blue"/>
+		        android:textColor="@color/black"/>
 		        
 		        
 		        
@@ -263,14 +267,13 @@
 		    
 		    <RelativeLayout 
 			    android:id="@+id/el6"
-			    android:layout_below="@id/el3"
-			    android:layout_width="wrap_content"
+                android:layout_width="wrap_content"
 			    android:layout_height="wrap_content"
 			    android:orientation="vertical"
-			    android:layout_marginTop="2dp"
-			    android:layout_alignParentRight="true"
-			    android:layout_alignParentEnd="true"
-			    android:background="@drawable/workout_activity_measurements_selector">
+                android:background="@drawable/workout_activity_measurements_selector"
+                android:layout_above="@+id/el4p"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true">
 		    
 		        <ImageView
 			        android:id="@+id/feetImageWorkoutStatisticsActivity"
@@ -288,7 +291,7 @@
 			        android:layout_toRightOf="@id/feetImageWorkoutStatisticsActivity"
 			        android:layout_toEndOf="@id/feetImageWorkoutStatisticsActivity"
 			        android:textSize="30sp"
-			        android:textColor="@color/blue"/>
+			        android:textColor="@color/black"/>
 		        
 		    </RelativeLayout>
 				    

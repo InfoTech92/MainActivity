@@ -17,7 +17,7 @@ android:scrollbars="none" >
 		    android:layout_width="match_parent"
 		    android:layout_height="match_parent"
 		    android:orientation="vertical"
-		    android:background="@drawable/main_header_selector">
+		    android:background="@drawable/main_header_selector2">
 		
 		
 		
@@ -47,7 +47,7 @@ android:scrollbars="none" >
 			    android:layout_width="wrap_content"
 			    android:layout_height="wrap_content"
 			    android:textSize="80sp"
-			    android:textColor="@color/blue"
+			    android:textColor="@color/black"
 			    android:layout_toEndOf="@id/shoeImage2"
 		       	android:layout_toRightOf="@id/shoeImage2"
 			    android:text="@string/workout_activity_counter_init"
@@ -97,8 +97,9 @@ android:scrollbars="none" >
 		        android:text="@string/workout_activity_clock_init"
 		        android:layout_alignRight="@id/btnStop"
 		        android:layout_alignEnd="@id/btnStop"
+                android:layout_margin="5dp"
 		        android:textSize="30sp"
-		        android:textColor="@color/blue"/>
+		        android:textColor="@color/black"/>
 		    
 		    
 		    
@@ -141,7 +142,7 @@ android:scrollbars="none" >
 		    android:layout_width="wrap_content"
 		    android:layout_height="wrap_content"
 		    android:orientation="vertical"
-		    android:layout_marginTop="2dp"
+		    android:layout_marginTop="15dp"
 		    android:background="@drawable/workout_activity_measurements_selector"
 		    android:layout_below="@id/clockImage">
 		    
@@ -161,7 +162,7 @@ android:scrollbars="none" >
 		        android:layout_toRightOf="@id/tachimeterImage1"
 		        android:layout_toEndOf="@id/tachimeterImage1"
 		        android:textSize="30sp"
-		        android:textColor="@color/blue"/>
+		        android:textColor="@color/black"/>
 		        
 		        
 		        
@@ -174,7 +175,7 @@ android:scrollbars="none" >
 		    android:layout_width="wrap_content"
 		    android:layout_height="wrap_content"
 		    android:orientation="vertical"
-		    android:layout_marginTop="2dp"
+		    android:layout_marginTop="15dp"
 		    android:layout_alignParentRight="true"
 		    android:layout_alignParentEnd="true"
 		    android:background="@drawable/workout_activity_measurements_selector"
@@ -196,7 +197,7 @@ android:scrollbars="none" >
 		        android:layout_toRightOf="@id/positionImage"
 		        android:layout_toEndOf="@id/positionImage"
 		        android:textSize="30sp"
-		        android:textColor="@color/blue"/>
+		        android:textColor="@color/black"/>
 		        
 		        
 		        
@@ -232,7 +233,7 @@ android:scrollbars="none" >
 		        android:layout_toRightOf="@id/tachimeterImage2"
 		        android:layout_toEndOf="@id/tachimeterImage2"
 		        android:textSize="30sp"
-		        android:textColor="@color/blue"/>
+		        android:textColor="@color/black"/>
 		        
 		        
 		        
@@ -271,7 +272,7 @@ android:scrollbars="none" >
 			        android:layout_toRightOf="@id/feetImage"
 			        android:layout_toEndOf="@id/feetImage"
 			        android:textSize="30sp"
-			        android:textColor="@color/blue"/>
+			        android:textColor="@color/black"/>
 		        
 		    </RelativeLayout>
 		    
@@ -307,7 +308,7 @@ android:scrollbars="none" >
 			        android:layout_toRightOf="@id/tachimeterImage3"
 			        android:layout_toEndOf="@id/tachimeterImage3"
 			        android:textSize="30sp"
-		        android:textColor="@color/blue"/>
+		        android:textColor="@color/black"/>
 		        
 		    </RelativeLayout>
 		    
@@ -351,7 +352,7 @@ android:scrollbars="none" >
 			        android:layout_toRightOf="@id/shoeImage"
 			        android:layout_toEndOf="@id/shoeImage"
 			        android:textSize="30sp"
-			        android:textColor="@color/blue"/>
+			        android:textColor="@color/black"/>
 		        
 		    </RelativeLayout>
 		    
@@ -365,6 +366,7 @@ android:scrollbars="none" >
 		        android:layout_height="50dp"
 		        android:src="@drawable/profile_image"
 		        android:layout_below="@id/el6"
+                android:layout_marginTop="15dp"
 		        android:contentDescription="@string/workout_activity_tachimeter1_symbol_image_description"/>
 		    
 		    
@@ -377,7 +379,7 @@ android:scrollbars="none" >
 		        android:layout_toEndOf="@id/profileImageWorkoutActivity"
 		        android:layout_alignTop="@id/profileImageWorkoutActivity"
 		        android:textSize="30sp"
-		        android:textColor="@color/blue"/>
+		        android:textColor="@color/black"/>
 		    
 		    
 		    <TextView
@@ -389,7 +391,7 @@ android:scrollbars="none" >
 		        android:layout_toEndOf="@id/profileImageWorkoutActivity"
 		        android:layout_alignBottom="@id/profileImageWorkoutActivity"
 		        android:textSize="30sp"
-		        android:textColor="@color/blue"/>
+		        android:textColor="@color/black"/>
 		    
 		   
 		   
