@@ -47,10 +47,10 @@ public class WorkoutEndActivity extends ActionBarActivity implements OnClickList
         btnExitSaveEndWorkout.setOnClickListener(this);
         
         Intent i = getIntent();
-        
+
         this.workout = new Workout(0,i.getStringExtra("workoutName"),i.getStringExtra("workoutJson"));
-        
-        
+
+
 	}
 
 	/**

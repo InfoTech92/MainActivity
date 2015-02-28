@@ -1,5 +1,6 @@
 package com.stepcounter.mainactivity;
 
+import org.json.JSONException;
 import org.json.JSONObject;
 
 
@@ -32,11 +33,15 @@ public class Workout {
 	 * @param name
 	 * @param json
 	 */
-	public Workout(int _id, String name, String json){
+	public Workout(int _id, String name, String json) {
 		this._id = _id;
 		this.name = name;
-		this.json = new JSONObject(json);
-	}
+        try {
+            this.json = new JSONObject(json);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+    }
 	
 	/**
 	 * Constructor.
@@ -107,8 +112,12 @@ public class Workout {
 	 * @param json
 	 */
 	public void setWorkoutJSON(String json){
-		this.json = new JSONObject(json);
-	}
+        try {
+            this.json = new JSONObject(json);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+    }
 	
 	/**
 	 * Sets the workout JSON object by using a JSONObject.

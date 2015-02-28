@@ -149,7 +149,7 @@ public class Profile {
 	
 	/**
 	 * Sets the X value.
-	 * @param X
+	 * @param x
 	 */
 	public void setX(int x){
 		this.x = x;

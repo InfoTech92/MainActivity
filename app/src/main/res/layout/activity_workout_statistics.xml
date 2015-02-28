@@ -291,7 +291,7 @@
 			        android:layout_toRightOf="@id/feetImageWorkoutStatisticsActivity"
 			        android:layout_toEndOf="@id/feetImageWorkoutStatisticsActivity"
 			        android:textSize="30sp"
-			        android:textColor="@color/black"/>
+			        android:textColor="@color/blue"/>
 		        
 		    </RelativeLayout>
 				    

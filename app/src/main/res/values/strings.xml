@@ -80,7 +80,7 @@
     <string name="profile_management_activity_weight_text_view">Peso</string>
     <string name="profile_management_activity_step_length_text_view">Lungh. Passo</string>
     <string name="profile_management_activity_gender_text_view">Sesso</string>
-    <string name="profile_management_activity_x_text_view">X</string>
+    <string name="profile_management_activity_x_text_view">Ultimi X Passi</string>
     <string name="profile_management_activity_statistics_text">Statistiche</string>
     <string name="profile_management_activity_save_text">Salva</string>
     <string name="profile_management_activity_height_image_description">Height Image</string>

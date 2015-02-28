@@ -170,11 +170,11 @@ public class DatabaseAdapter {
 	 * @param gender
 	 * @param height
 	 * @param weight
-	 * @param step_len
-	 * @param dist_tot_km
-	 * @param steps_tot
-	 * @param time_tot_sec
-	 * @param kcal_tot
+	 * @param stepLen
+	 * @param distTotKm
+	 * @param stepsTot
+	 * @param timeTotSec
+	 * @param kcalTot
 	 * @param x
 	 * @return
 	 */
@@ -213,11 +213,11 @@ public class DatabaseAdapter {
 	 * @param gender
 	 * @param height
 	 * @param weight
-	 * @param step_len
-	 * @param dist_tot_km
-	 * @param steps_tot
-	 * @param time_tot_sec
-	 * @param kcal_tot
+	 * @param stepLen
+	 * @param distTotKm
+	 * @param stepsTot
+	 * @param timeTotSec
+	 * @param kcalTot
 	 * @param x
 	 * @return
 	 */
@@ -241,11 +241,11 @@ public class DatabaseAdapter {
 	 * @param gender
 	 * @param height
 	 * @param weight
-	 * @param step_len
-	 * @param dist_tot_km
-	 * @param steps_tot
-	 * @param time_tot_sec
-	 * @param kcal_tot
+	 * @param stepLen
+	 * @param distTotKm
+	 * @param stepsTot
+	 * @param timeTotSec
+	 * @param kcalTot
 	 * @param x
 	 * @return
 	 */

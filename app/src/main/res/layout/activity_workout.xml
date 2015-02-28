@@ -47,7 +47,7 @@ android:scrollbars="none" >
 			    android:layout_width="wrap_content"
 			    android:layout_height="wrap_content"
 			    android:textSize="80sp"
-			    android:textColor="@color/black"
+			    android:textColor="#00FF80"
 			    android:layout_toEndOf="@id/shoeImage2"
 		       	android:layout_toRightOf="@id/shoeImage2"
 			    android:text="@string/workout_activity_counter_init"
@@ -99,7 +99,7 @@ android:scrollbars="none" >
 		        android:layout_alignEnd="@id/btnStop"
                 android:layout_margin="5dp"
 		        android:textSize="30sp"
-		        android:textColor="@color/black"/>
+		        android:textColor="#00FF80"/>
 		    
 		    
 		    

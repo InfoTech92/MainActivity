@@ -71,33 +71,33 @@ final class StepCountingThread implements Runnable {
     	this.mContext = context;
     	this.handler = hand;
     	this.stepLen = stepLen;
-    	
+
     }
- 
-    
+
+
     /**
      * Method to be run in the newly created thread.
      */
     @Override
     public void run() {
-    	
+
     	//The accelerometer sensor is taken from the sensor manager object.
         this.mSensorManager = (SensorManager) mContext.getSystemService(Context.SENSOR_SERVICE);
         this.mSensor = this.mSensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
-       
+
         //The handler thread for the sensor.
         this.mHandlerThread = new HandlerThread("AccelerometerLogListener");
         this.mHandlerThread.start();
-        
+
         Handler handlerThread = new Handler(this.mHandlerThread.getLooper());
-        
+
         //The StepCountingLibrary is here created and executed.
         this.mListener = new StepCountingLibrary(this.handler, this.stepLen);
-        
+
         //The listener is registered to the accelerometer events.
         this.mSensorManager.registerListener(this.mListener, this.mSensor, DELAY , handlerThread);
-    	
+
     }
- 
- 
+
+
 }

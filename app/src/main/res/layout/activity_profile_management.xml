@@ -29,7 +29,7 @@ android:scrollbars="none" >
 		          android:id="@+id/profileManagementActivityNameTextView"
 		          android:layout_width="100dip"
 		          android:layout_height="40dip"
-		          android:textColor="@color/black"
+		          android:textColor="#00FF80"
 		          android:layout_toRightOf="@+id/circularImage"
 		          android:layout_toEndOf="@+id/circularImage"
 		          android:layout_alignTop="@+id/circularImage"
@@ -42,7 +42,8 @@ android:scrollbars="none" >
 		          android:layout_toRightOf="@id/profileManagementActivityNameTextView"
 		          android:layout_toEndOf="@id/profileManagementActivityNameTextView"
 		          android:layout_alignBottom="@+id/profileManagementActivityNameTextView"
-		          android:inputType="text">
+		          android:inputType="text"
+                  android:textColor="#00FF80">
 		    </EditText>
 		    
 		    
@@ -52,7 +53,7 @@ android:scrollbars="none" >
 		          android:layout_width="100dip"
 		          android:layout_height="40dip"
 		          android:layout_below="@id/profileManagementActivityNameTextView"
-		          android:textColor="@color/black"
+		          android:textColor="#00FF80"
 		          android:layout_toRightOf="@+id/circularImage"
 		          android:layout_toEndOf="@+id/circularImage"
 		          android:layout_alignBottom="@+id/circularImage"
@@ -64,7 +65,8 @@ android:scrollbars="none" >
 		          android:layout_toRightOf="@id/profileManagementActivitySurnameTextView"
 		          android:layout_toEndOf="@id/profileManagementActivitySurnameTextView"
 		          android:layout_below="@id/profileManagementActivityNameEditText"
-		          android:inputType="text">
+		          android:inputType="text"
+                  android:textColor="#00FF80">
 		    </EditText>
 		    
 		    
@@ -86,7 +88,7 @@ android:scrollbars="none" >
 		          android:layout_below="@id/profileManagementActivitySurnameTextView"
 		          android:layout_toRightOf="@id/heightImage"
 		          android:layout_toEndOf="@id/heightImage"
-		          android:textColor="@color/black"
+		          android:textColor="#00FF80"
 		          android:text="@string/profile_management_activity_height_text_view"
 		          android:layout_alignBaseline="@id/heightImage" />
 		    <EditText
@@ -96,7 +98,7 @@ android:scrollbars="none" >
 		          android:layout_marginTop="2dp"
 		          android:layout_toRightOf="@id/profileManagementActivityHeightTextView"
 		          android:layout_toEndOf="@id/profileManagementActivityHeightTextView"
-		          android:textColor="@color/black"
+		          android:textColor="#00FF80"
 		          android:layout_below="@id/profileManagementActivitySurnameEditText"
 		          android:inputType="number"
 		          android:layout_alignBaseline="@id/heightImage">
@@ -123,7 +125,7 @@ android:scrollbars="none" >
 		          android:layout_toEndOf="@id/weightImage"
 		          android:layout_alignBaseline="@id/weightImage"
 		          android:text="@string/profile_management_activity_weight_text_view"
-		          android:textColor="@color/black" />
+		          android:textColor="#00FF80" />
 		    <EditText
 		          android:id="@+id/profileManagementActivityWeightEditText"
 		          android:layout_width="120dip"
@@ -133,7 +135,7 @@ android:scrollbars="none" >
 		          android:layout_toEndOf="@id/profileManagementActivityWeightTextView"
 		          android:layout_below="@id/profileManagementActivityHeightEditText"
 		          android:inputType="number"
-		          android:textColor="@color/black"
+		          android:textColor="#00FF80"
 		          android:layout_alignBaseline="@id/weightImage">
 		    </EditText>
 		    
@@ -155,7 +157,7 @@ android:scrollbars="none" >
 		          android:layout_toRightOf="@id/stepImage"
 		          android:layout_toEndOf="@id/stepImage"
 		          android:text="@string/profile_management_activity_step_length_text_view"
-		          android:textColor="@color/black"
+		          android:textColor="#00FF80"
 		          android:layout_alignBaseline="@id/stepImage" />
 		    <EditText
 		          android:id="@+id/profileManagementActivityStepLengthEditText"
@@ -166,6 +168,7 @@ android:scrollbars="none" >
 		          android:layout_toEndOf="@id/profileManagementActivityStepLengthTextView"
 		          android:layout_below="@id/profileManagementActivityWeightEditText"
 		          android:inputType="number"
+                  android:textColor="#00FF80"
 		          android:layout_alignBaseline="@id/stepImage">
 		    </EditText>
 		    
@@ -187,7 +190,7 @@ android:scrollbars="none" >
 		          android:layout_toEndOf="@id/genderImage"
 		          android:layout_below="@id/profileManagementActivityStepLengthTextView"
 		          android:text="@string/profile_management_activity_gender_text_view"
-		          android:textColor="@color/black"
+		          android:textColor="#00FF80"
 		          android:layout_alignBaseline="@id/genderImage" />
 		    <EditText
 		          android:id="@+id/profileManagementActivityGenderEditText"
@@ -198,6 +201,7 @@ android:scrollbars="none" >
 		          android:layout_toEndOf="@id/profileManagementActivityGenderTextView"
 		          android:layout_below="@id/profileManagementActivityStepLengthEditText"
 		          android:inputType="text"
+                  android:textColor="#00FF80"
 		          android:layout_alignBaseline="@id/genderImage">
 		    </EditText>
 		    
@@ -214,7 +218,7 @@ android:scrollbars="none" >
 		          android:layout_marginStart="40dp"
 		          android:layout_below="@id/genderImage"
 		          android:text="@string/profile_management_activity_x_text_view"
-		          android:textColor="@color/black" />
+		          android:textColor="#00FF80" />
 		    <EditText
 		          android:id="@+id/profileManagementActivityXEditText"
 		          android:layout_width="120dip"
@@ -223,6 +227,7 @@ android:scrollbars="none" >
 		          android:layout_toRightOf="@id/profileManagementActivityXTextView"
 		          android:layout_toEndOf="@id/profileManagementActivityXTextView"
 		          android:layout_below="@id/genderImage"
+                  android:textColor="#00FF80"
 		          android:inputType="text">
 		    </EditText>
 		    

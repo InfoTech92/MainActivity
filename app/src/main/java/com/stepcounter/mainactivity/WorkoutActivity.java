@@ -180,10 +180,14 @@ public class WorkoutActivity extends ActionBarActivity implements Animation.Anim
         self = this;
         
         JSONObject json = workout.getWorkoutJSON();
-        
-        stepsC = json.getInt("expected_mean_speed");
-        
-        
+
+        try {
+            stepsC = json.getInt("expected_mean_speed");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+
         this.lastTime = SystemClock.uptimeMillis();
         this.vocalsActive = true;
         
@@ -209,7 +213,7 @@ public class WorkoutActivity extends ActionBarActivity implements Animation.Anim
         	    textViewMeanSpeedLastX.setText(meanSpeedLastX);
         	    textViewStepsNumberLastX.setText(stepsInLastXMeters);
         	    
-        	    
+
         	    int delta;
         	    int tollerance = 10;
                 int maxTollerance = 50;
@@ -264,7 +268,7 @@ public class WorkoutActivity extends ActionBarActivity implements Animation.Anim
         	    stepCountingThread.mListener.readFlag = true;
         	}
         };
-        
+
         
         
         
